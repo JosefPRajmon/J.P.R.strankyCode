@@ -1,0 +1,52 @@
+body {
+    background-color: #1f2d41 !important;
+}
+
+#Formate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: auto;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+#gratule {
+    color: greenyellow;
+}
+
+#itsSad {
+    color: red;
+}
+
+td {
+    color: white;
+}
+
+textarea {
+    width: 20rem;
+    height: 10rem
+}
+
+nav.menu {
+    display: block;
+    width: 100%;
+    background: #00cfd5;
+}
+
+    nav.menu a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        line-height: 2em;
+        padding: 0 15px;
+    }
+
+        nav.menu a:hover {
+            background: rgba(0, 0, 0, 0.1);
+        }
+.center{
+    text-align:center
+}
