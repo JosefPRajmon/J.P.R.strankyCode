@@ -60,7 +60,7 @@ if (isset($_GET['uspech']))
 </head>
 <body>
     <nav class="menu center">
-          <a  href="index.html">HLAVNÍ STRÁNKA</a>
+          <a  href="index.php">HLAVNÍ STRÁNKA</a>
     </nav>
         <div id="Formate">
 
