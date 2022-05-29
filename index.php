@@ -32,7 +32,7 @@
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">KONTAKT</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="mailform.php">KONTAKTNÍ FORMULÁŘ</a>
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="php/api/mailform.php">KONTAKTNÍ FORMULÁŘ</a>
                     </li>
 
 
@@ -63,6 +63,7 @@
             <!-- Portfolio Section Heading-->
             <div class="text-center">
                 <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PORTFOLIO</h2>
+                <h5>tato sekce se stále předělává změny najdete na GITHUB</h5>
             </div>
             <!-- Icon Divider-->
             <div class="divider-custom">
@@ -73,40 +74,9 @@
             <!-- Portfolio Grid Items-->
 
 
-            <button class="accordion">DESKTOPOVÉ APLIKACE</button>
-
-
-            <div class="panel">
                 <?php
-                include "php/hisrtoricData/portfolioDescop.php";
+                include "php/hisrtoricData/portfolioItems.php";
                 ?>
-            </div>
-
-
-
-
-            <button class="accordion">WEBOVÉ APLIKACE</button>
-            <div class="panel">
-                <div class="row justify-content-center">
-                    <!-- Portfolio Items-->
-                    <?php
-                    include "php/hisrtoricData/portfolioWebApp.php";
-                    ?>
-                    </div>
-                </div>
-            <button class="accordion">STARÉ APLIKACE (z dob učení)</button>
-            <div class="panel">
-                <div class="row justify-content-center">
-                <!-- Portfolio Items-->
-                <?php
-                include "php/hisrtoricData/portfolioOldApp.php";
-                ?>
-                </div>
-            </div>
-
-
-
-
     </section>
 
 
@@ -530,7 +500,7 @@
     </footer>
     <!-- Copyright Section-->
     <section class="copyright py-4 text-center text-white">
-        <div class="container"><small class="pre-wrap">Vyrobil © Rajmon v roce 2020.</small></div>
+        <div class="container"><small class="pre-wrap">Vyrobil © Rajmon v roce 2020.  Poslední aktualizace 29.05.2022</small></div>
     </section>
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
     <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>

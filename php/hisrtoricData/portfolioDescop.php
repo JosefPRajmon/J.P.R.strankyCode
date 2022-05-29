@@ -1,5 +1,6 @@
 <?php
-echo "
+function giveDescopBlock(){
+    return "
                 <div class=\"row justify-content-center\">
                     <!-- Portfolio Items-->
                     <div class=\"col-md-6 col-lg-4 mb-5\">
@@ -32,4 +33,4 @@ echo "
                             </div><img class=\"img-fluid\" src=\"assets/img/portfolio/Rureta.png\" alt=\"C# Jednoduchá rureta\" />
                         </div>
                     </div>
-                </div>";
+                </div>";}
